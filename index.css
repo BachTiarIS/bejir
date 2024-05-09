@@ -35,3 +35,47 @@ body {
   p-4 m-8 w-80 bg-white shadow-md rounded-xl {
     display: flex;
   }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
