@@ -3,3 +3,5 @@ function search() {
     alert('Anda mencari: ' + searchInput);
     // Lakukan tindakan pencarian sesuai kebutuhan
 }
+
+
